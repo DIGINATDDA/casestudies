@@ -39,18 +39,14 @@ option=(char)br.read();
 switch(option)
 {
 case '1': booking();
-/*if(bookingFlag==1)
-{
-booked[i]=
-}*/
+
 break;
 case '2':
 checkStatus(); break;
 case '3':System.exit(0);break;
 
 }
-//System.out.println("Do you want to continue?(1/0)");
-// ch=Integer.parseInt(br.readLine());
+
 }while(option!='3');
 }
 private static void checkStatus() throws IOException {
@@ -59,7 +55,7 @@ private static void checkStatus() throws IOException {
 System.out.println("Enter your room No.");
 
 roomNo=Integer.parseInt(br.readLine());
-// roomNo=Integer.parseInt(br.readLine());
+
 System.out.println(roomNo);*/
 System.out.print("Enter your Room Id:");
 BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
@@ -82,7 +78,6 @@ break;
 
 }
 private static void booking() throws IOException {
-// TODO Auto-generated method stub
 String ac;
 String cot;
 String cable;
@@ -160,13 +155,13 @@ booked[i]=total;
 roomno=i+1;
 flag=1;
 break;
-//i++;
+
 }
 }
 if(flag==1)
 System.out.println("Thank you for booking. Your room number is "+roomno+ ".");
 
-//Thank you for booking. Your room number is 2.
+
 }
 
 

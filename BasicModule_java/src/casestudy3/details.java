@@ -22,8 +22,20 @@ public class details
 	String prooftype=di.readLine();
 	System.out.println("Enter your proofid");
 	String proofid=di.readLine();
-	System.out.println("Do you want to proceed(y/no)");
+	System.out.println("Do you want to proceed(y/no)"); 
+	String proceed=di.readLine();
+	int flag=0;
+	int i;
+	if(proceed.equalsIgnoreCase("yes"))
+	{
+		for(i=0;i<25;i++)
+	}
+	if(a[i]=0)
+	{
+		
+	}
 	
+
 		System.out.println("update email");
 		System.out.println("Enter your new email id");
 		System.out.println("Enter your email id");
