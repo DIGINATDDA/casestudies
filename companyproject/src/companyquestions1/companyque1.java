@@ -45,7 +45,8 @@ public class companyque1 {
 		case 9:t=t+6;
 		}
 		System.out.println(t);
-}
+
+	}
 		}
 
 
